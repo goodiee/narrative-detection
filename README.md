@@ -10,7 +10,7 @@ This project detects **narrative manipulation** by comparing **images and text**
 ## 📁 Project Structure
 
 - `data/` – Contains dataset-related files and placeholders  
-- `models/` – Image-to-text models like BLIP, ViT, etc.  
+- `models/` – Image-to-text models like BLIP, ViT-GPT2  
   - `models_to_test.ipynb` – Notebook for testing models  
 - `results/` – Model output results  
 - `scraper/`  
@@ -40,7 +40,7 @@ This project detects **narrative manipulation** by comparing **images and text**
 To set up the environment:
 
 ```bash
-git clone https://github.com/yourusername/narrative-manipulation-detection.git
+git clone https://github.com/yourusername/narrative-detection.git
 cd narrative-manipulation-detection
 pip install -r requirements.txt
 ```
@@ -56,7 +56,7 @@ Custom dataset of image-caption pairs collected from Russian Telegram channels k
 
 ## 📌 Features
 
-- 🧠 Compare image-generated captions to text using models like **BLIP**, **ViT**, and **CLIP**
+- 🧠 Compare image-generated captions to text using models like **BLIP**, **ViT-GPT2**, and **CLIP**
 - 🔎 Use **SBERT** for semantic similarity scoring
 - 🌍 Translate multilingual content for fair evaluation
 - 📉 Visualize model performance with box plots and metrics
