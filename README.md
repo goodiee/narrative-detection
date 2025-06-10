@@ -6,7 +6,6 @@
 
 This project detects **narrative manipulation** by comparing **images and text** from propaganda content, with a focus on Telegram channels and media datasets. The goal is to identify misleading narratives where visuals contradict or manipulate the associated captions.
 
----
 
 ## 📁 Project Structure
 
@@ -44,6 +43,7 @@ To set up the environment:
 git clone https://github.com/yourusername/narrative-manipulation-detection.git
 cd narrative-manipulation-detection
 pip install -r requirements.txt
+```
 
 ## 📊 Datasets
 
@@ -53,7 +53,6 @@ A benchmark dataset containing media headlines and image pairs with bias annotat
 ### 📡 Telegram Propaganda Dataset  
 Custom dataset of image-caption pairs collected from Russian Telegram channels known for disinformation.
 
----
 
 ## 📌 Features
 
