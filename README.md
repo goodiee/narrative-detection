@@ -1,7 +1,6 @@
 # 🧠 Narrative Manipulation Detection via Image and Text Comparison
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-research--project-yellow)
 
 This project detects **narrative manipulation** by comparing **images and text** from propaganda content, with a focus on Telegram channels and media datasets. The goal is to identify misleading narratives where visuals contradict or manipulate the associated captions.
